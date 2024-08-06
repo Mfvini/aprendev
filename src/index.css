@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Estilos da barra de rolagem */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(107, 33, 168, 1);
+  }
+
+::-webkit-scrollbar-thumb {
+  background: rgba(147, 51, 234, 1);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  /* background: rgba(107, 33, 168, 0.8); */
+  background: rgba(147, 51, 234, 1);
+
+}

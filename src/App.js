@@ -1,24 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Menu from './components/Menu';
+import CardEntrada from './components/CardEntrada';
+import CardFinal from './components/CardFinal';
+import FrontEnd from './components/FrontEnd';
+import BackEnd from './components/BackEnd';
+import FullStack from './components/FullStack';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Menu/>
+      <CardEntrada/>
+      <FrontEnd/>
+      <BackEnd/>
+      <FullStack/>
+      <CardFinal/>
     </div>
+
   );
 }
 
